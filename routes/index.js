@@ -3,5 +3,8 @@
  */
 
 exports.index = function(req, res) {
-	res.render('index', { title: 'Očistimo morje' });
+	res.render('index', {
+		title: 'Očistimo Slovensko morje',
+		slogan: 'Kdo bo, če ne bomo sami?'
+	});
 };
