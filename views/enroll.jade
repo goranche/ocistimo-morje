@@ -1,0 +1,43 @@
+div(class='content-section-a', id='enroll')
+	div(class='container')
+		div(class='row')
+			div(class='col-lg-5 col-sm-6')
+				hr(class='section-heading-spacer')
+				div(class='clearfix')
+				h2(class='section-heading') Prijava
+				p(class='lead') S prijavo nam date vedeti, da lahko računamo na vašo pomoč in nam omogočate, da vas obveščamo o morebitnih prihodnih spremembah.
+			div(class='col-lg-5 col-lg-offset-2 col-sm-6')
+				div(class='alert alert-success')
+					span(class='glyphicon glyphicon-send')
+					span &nbsp; Vaša prijava je zabeležena.
+				form(role='form', action='', method='')
+					div(class='col-lg-6')
+						div(class='well well-sm')
+							strong
+								i(class='glyphicon glyphicon-ok form-control-feedback')
+								span Obvezno polje
+						div(class='form-group')
+							label(for='inputName') Vaše ime
+							div(class='input-group')
+								input(type='text', class='form-control', name='inputName', id='inputName', placeholder='Vnesite ime', required)
+								span(class='input-group-addon')
+									i(class='glyphicon glyphicon-ok form-control-feedback')
+						div(class='form-group')
+							label(for='inputEmail') Vaš elektronski naslov
+							div(class='input-group')
+								input(type='email', class='form-control', name='inputEmail', id='inputEmail', placeholder='Vnesite elektronski naslov', required)
+								span(class='input-group-addon')
+									i(class='glyphicon glyphicon-ok form-control-feedback')
+						div(class='form-group')
+							label(for='inputMessage') Vaše sporočilo
+							div(class='input-group')
+								textarea(name='inputMessage', id='inputMessage', class='font-control', rows='5', required)
+								span(class='input-group-addon')
+									i(class='glyphicon glyphicon-ok form-control-feedback')
+						div(class='form-group')
+							label(for='inputReal') Koliko je 4+3?
+							div(class='input-group')
+								input(type='text', class='form-control', name='inputReal', id='inputReal', required)
+								span(class='input-group-addon')
+									i(class='glyphicon glyphicon-ok form-control-feedback')
+						input(type='submit', name='submit', id='submit', value='Pošlji prijavo', class='btn btn-info pull-right')
